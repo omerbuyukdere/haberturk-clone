@@ -1,0 +1,287 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbarone {
+  display: flex;
+  justify-content: space-between;
+  background-color: #da1212;
+  width: 100%;
+  margin-top: 25px;
+}
+.left {
+  margin-left: 230px;
+  padding-top: 6px;
+}
+.right {
+  margin-right: 300px;
+  padding-top: 9px;
+}
+.right ul {
+  list-style: none;
+  display: block;
+}
+.right ul li {
+  display: inline;
+  position: relative;
+}
+
+.htl {
+  position: absolute;
+  left: 42rem;
+  top: 1.5rem;
+}
+.fa-solid {
+  color: #fff;
+}
+/* navbartwo */
+.navcategories ul {
+  display: block;
+  list-style: none;
+}
+.navcategories ul li {
+  display: inline;
+  position: relative;
+}
+.navcategories ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navcategories ul li a:hover {
+  text-decoration: none;
+  color: #da1212;
+}
+.navbarcategories {
+  margin-left: 22rem;
+  padding: 0.5rem;
+
+  margin-top: 16px;
+}
+.navcategories ul li {
+  padding: 5px;
+}
+.main {
+  background-color: #f1f1f1;
+}
+.container-a {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.card {
+  overflow: hidden;
+}
+.card1 {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+.card1 h6 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.cardimg:hover {
+  transform: scale(1.05);
+}
+.container-b {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+.cb-center div {
+  overflow: hidden;
+}
+.container-c {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.cc-left {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  margin-right: 50px;
+}
+.cc-left-first {
+  margin-right: 32px;
+}
+.cc-left-first .card {
+  row-gap: 50px;
+}
+.cc-right {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  padding-left: 40px;
+
+  background-color: #fff;
+}
+.cc-left-two .card {
+  row-gap: 50px;
+}
+.cc-right-column1 {
+  padding: 5px;
+}
+.cc-right-column2 {
+  padding: 6px;
+}
+.cc-right-img {
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid #da1212;
+}
+.udiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editors h6 {
+  font-size: 12px;
+}
+.card img {
+  width: 310px;
+  height: 280px;
+}
+.container-d {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.container-d .card-content {
+  padding: 1rem;
+  margin-top: 15px;
+}
+.container-d .card {
+  width: 15%;
+  padding: 1.5rem;
+}
+.container-e {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.ce-first,
+.ce-two,
+.ce-three,
+.ce-four {
+  justify-content: center;
+  gap: 30px;
+}
+.container-e h6 {
+  padding: 10px;
+}
+
+/* footer */
+
+.footer-first {
+  display: flex;
+  background-color: #da1212;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 1rem;
+}
+.form-control {
+  border-radius: 16px;
+  width: 19rem;
+  background-color: #da1212;
+}
+.form-control::placeholder {
+  color: #fff;
+  padding: 8px;
+}
+.press-logo {
+  display: flex;
+  justify-content: center;
+}
+.press-logo ul {
+  list-style: none;
+  display: block;
+}
+.press-logo ul li {
+  display: inline;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.footer-two {
+  padding: 1rem;
+  margin-top: 15px;
+}
+.footer-three {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 15px;
+}
+.ul-one ul {
+  list-style: none;
+}
+.ula {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+.ula:hover {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+.social ul {
+  list-style: none;
+  display: block;
+}
+.social ul li {
+  display: inline;
+  position: relative;
+}
+.footer-four {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 15px;
+}
+.footer-four ul li {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.socialmedia {
+  font-size: 20px;
+
+  color: lightgray;
+}
+.fa-solid {
+  color: lightgray;
+  font-size: 20px;
+}
+.socialmedia:hover {
+  font-size: 20px;
+
+  color: black;
+}
+.fa-solid:hover {
+  color: black;
+  font-size: 20px;
+}
+.footer-five {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ff-content p {
+  font-size: 13px;
+}
+#backtotop {
+  position: fixed;
+  bottom: 50px;
+  right: 35px;
+}
+#backtotop i {
+  color: gray;
+  font-size: 45px;
+}
