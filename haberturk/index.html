@@ -19,6 +19,10 @@
     />
     <title>Document</title>
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
       .navbarone {
         display: flex;
         justify-content: space-between;
@@ -190,9 +194,118 @@
       .container-e h6 {
         padding: 10px;
       }
+
+      /* footer */
+
+      .footer-first {
+        display: flex;
+        background-color: #da1212;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 1rem;
+      }
+      .form-control {
+        border-radius: 16px;
+        width: 19rem;
+        background-color: #da1212;
+      }
+      .form-control::placeholder {
+        color: #fff;
+        padding: 8px;
+      }
+      .press-logo {
+        display: flex;
+        justify-content: center;
+      }
+      .press-logo ul {
+        list-style: none;
+        display: block;
+      }
+      .press-logo ul li {
+        display: inline;
+        position: relative;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .footer-two {
+        padding: 1rem;
+        margin-top: 15px;
+      }
+      .footer-three {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin-top: 15px;
+      }
+      .ul-one ul {
+        list-style: none;
+      }
+      .ula {
+        text-decoration: none;
+        color: gray;
+        font-size: 13px;
+      }
+      .ula:hover {
+        text-decoration: none;
+        color: gray;
+        font-size: 13px;
+      }
+      .social ul {
+        list-style: none;
+        display: block;
+      }
+      .social ul li {
+        display: inline;
+        position: relative;
+      }
+      .footer-four {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin-top: 15px;
+      }
+      .footer-four ul li {
+        margin-left: 6px;
+        margin-right: 6px;
+      }
+      .socialmedia {
+        font-size: 20px;
+
+        color: lightgray;
+      }
+      .fa-solid {
+        color: lightgray;
+        font-size: 20px;
+      }
+      .socialmedia:hover {
+        font-size: 20px;
+
+        color: black;
+      }
+      .fa-solid:hover {
+        color: black;
+        font-size: 20px;
+      }
+      .footer-five {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      #backtotop {
+        position: fixed;
+        bottom: 50px;
+        right: 35px;
+      }
+      #backtotop i {
+        color: gray;
+        font-size: 45px;
+      }
     </style>
   </head>
-  <body>
+  <body id="body">
     <!-- header -->
     <header class="header">
       <div class="navbar">
@@ -995,7 +1108,237 @@
     </section>
 
     <!-- footer -->
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <div>
+            <a href="#"
+              ><img
+                src="img/header/haberturk-logo.jpg"
+                alt=""
+                style="width: 80px; height: 66px"
+            /></a>
+          </div>
+          <div>
+            <p style="color: #fff">
+              “Günün manşetlerini ve en çok okunan haberlerini her sabah e
+              <br />
+              -postanızdan takip etmek için Habertürk bültene üye olun.”
+            </p>
+          </div>
+          <div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="E-posta adresinizi yazınız!"
+            />
+          </div>
+        </div>
+        <div class="footer-two">
+          <div class="press-logo">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/1.jpg"
+                    alt=""
+                    style="width: 80px; height: 70px"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/2.jpg"
+                    alt=""
+                    style="width: 50px; height: 40px"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/3.jpg"
+                    alt=""
+                    style="width: 50px; height: 40px"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/4.jpg"
+                    alt=""
+                    style="width: 50px; height: 40px"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/5.png"
+                    alt=""
+                    style="width: 50px; height: 40px"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/6.png"
+                    alt=""
+                    style="width: 50px; height: 40px"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/7.png"
+                    alt=""
+                    style="width: 50px; height: 40px"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="img/footer/press/8.jpg"
+                    alt=""
+                    style="width: 50px; height: 40px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-three">
+          <div class="ul-one">
+            <ul>
+              <li><a href="#" class="ula">Son Dakika Haberleri</a></li>
+              <li><a href="#" class="ula">Haberler</a></li>
+              <li><a href="#" class="ula">Ekonomi Haberleri</a></li>
+              <li><a href="#" class="ula">Güncel Haberler</a></li>
+              <li><a href="#" class="ula">Magazin Haberleri</a></li>
+              <li><a href="#" class="ula">Spor Haberleri</a></li>
+              <li><a href="#" class="ula">Dünya Haberleri</a></li>
+              <li><a href="#" class="ula">Sağlık Haberleri</a></li>
+              <li><a href="#" class="ula">Kadın Haberleri</a></li>
+              <li><a href="#" class="ula">Teknoloji Haberleri</a></li>
+              <li><a href="#" class="ula">Memur ve Emekli Haberleri</a></li>
+              <li><a href="#" class="ula">Altın Fiyatları</a></li>
+            </ul>
+          </div>
+          <div class="ul-one">
+            <ul>
+              <li><a href="#" class="ula">Dolar Kuru</a></li>
+              <li><a href="#" class="ula">Euro Kuru</a></li>
+              <li><a href="#" class="ula">Kripto Para Fiyatları</a></li>
+              <li><a href="#" class="ula">Canlı Borsa</a></li>
+              <li><a href="#" class="ula">Namaz Vakitleri</a></li>
+              <li><a href="#" class="ula">İftar Saatleri</a></li>
+              <li><a href="#" class="ula">İstanbul İmsakiye</a></li>
+              <li><a href="#" class="ula">Nöbetçi Eczaneler</a></li>
+              <li><a href="#" class="ula">E Okul VBS</a></li>
+              <li><a href="#" class="ula">E Devlet Giriş</a></li>
+              <li><a href="#" class="ula">Günlük Burç Yorumları</a></li>
+              <li><a href="#" class="ula">Son Depremler</a></li>
+            </ul>
+          </div>
+          <div class="ul-one">
+            <ul>
+              <li><a href="#" class="ula">Hava Durumu</a></li>
+              <li><a href="#" class="ula">Yol Durumu</a></li>
+              <li><a href="#" class="ula">TV Yayın Akışı</a></li>
+              <li><a href="#" class="ula">Instagram Dondurma</a></li>
+              <li><a href="#" class="ula">Instagram Silme</a></li>
+              <li><a href="#" class="ula">Yemek Tarifleri</a></li>
+              <li><a href="#" class="ula">Ayetel Kürsi</a></li>
+              <li><a href="#" class="ula">Yasin Suresi</a></li>
+              <li><a href="#" class="ula">Felak Nas Suresi</a></li>
+              <li><a href="#" class="ula">Aşk Sözleri</a></li>
+              <li><a href="#" class="ula">Günaydın Mesajları</a></li>
+              <li><a href="#" class="ula">Milli Piyango Sonuçları</a></li>
+            </ul>
+          </div>
+          <div class="ul-one">
+            <ul>
+              <li><a href="#" class="ula">Sayısal Loto Sonuçları</a></li>
+              <li><a href="#" class="ula">Gram Altın</a></li>
+              <li><a href="#" class="ula">Çeyrek Altın</a></li>
+              <li><a href="#" class="ula">Yarım Altın</a></li>
+              <li><a href="#" class="ula">Ata Altın</a></li>
+              <li><a href="#" class="ula">Cumhuriyet Altını</a></li>
+              <li><a href="#" class="ula">22 Ayar Bilezik</a></li>
+              <li><a href="#" class="ula">1 Dolar Kaç TL</a></li>
+              <li><a href="#" class="ula">1 Euro Kaç TL</a></li>
+              <li><a href="#" class="ula">Canlı Maç Sonuçları</a></li>
+              <li><a href="#" class="ula">Günaydın Mesajları</a></li>
+              <li><a href="#" class="ula">Süper Lig Puan Durumu</a></li>
+            </ul>
+          </div>
+          <div class="ul-one">
+            <ul>
+              <li><a href="#" class="ula">Kullanım Koşulları</a></li>
+              <li><a href="#" class="ula">Gizlilik ve KVK Politikası</a></li>
+              <li><a href="#" class="ula">Çerez Politikası</a></li>
+              <li><a href="#" class="ula">Aydınlatma Metni</a></li>
+              <li><a href="#" class="ula">Künye</a></li>
+              <li>
+                <a href="#" class="ula">OKUR HATTI: (0212) 313 60 00 PBX</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-four">
+          <div class="social">
+            <ul>
+              <li>
+                <a href="#" class="socialmedia"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="socialmedia"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="socialmedia"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="socialmedia"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="socialmedia"
+                  ><i class="fa-brands fa-flipboard"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="socialmedia"
+                  ><i class="fa-solid fa-rss"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-five">
+          <div class="ff-content">
+            <p class="text-center">
+              www.haberturk.com internet sitesinde yayınlanan yazı, haber, video
+              ve fotoğrafların her türlü hakkı Haberturk Gazetecilik A.Ş.’ye
+              aittir. İzin alınmadan, kaynak gösterilerek dahi iktibas edilemez.
+            </p>
+            <p class="text-center">
+              Copyright © 2022 - Tüm hakları saklıdır. Habertürk Gazetecilik
+              A.Ş.
+            </p>
+            <p class="text-center">
+              Üretim ve Tasarım. Ciner Bilgi Grubu Bilgi Grubu
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#body" id="backtotop">
+      <i class="fas fa-chevron-circle-up"></i>
+    </a>
 
     <!-- --------------------------------------- -->
     <script
